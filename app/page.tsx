@@ -29,7 +29,6 @@ return data;
 export default async function Home() {
   const data: simpleBlogCard[] = await getData();
 
-  console.log(data);
   return (
     <div >
     <hr className="border-red-900 mb-10 mt-10" />
